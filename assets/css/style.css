@@ -296,13 +296,42 @@
 
    /*  Media Queries working from desktop width down to mobile devices*/
 
+    /* 980px; */
+
    @media  (max-width: 980px) {
     .about-me, .lorem  {
       color: rgb(7, 6, 6);
       font-size: 20px;
       background-color: rgba(238, 165, 178, 0.954);
     }
+    .wlc {
+      font-family: monospace; /* Web-safe typewriter-like font */
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(30, end),
+        blinking-cursor .5s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blinking-cursor {
+      from, to { border-color: transparent }
+      50% { border-color: rgb(237, 66, 237); }
+    }
    }
+
+
+
+    /* 768px */
 
    @media   (max-width: 768px) {
     .about-me, .lorem {
@@ -310,7 +339,35 @@
       font-size: 30px;
       background-color: rgba(208, 226, 173, 0.454);
     }
+
+    .wlc {
+      font-family: monospace; /* Web-safe typewriter-like font */
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(30, end),
+        blinking-cursor .5s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blinking-cursor {
+      from, to { border-color: transparent }
+      50% { border-color: aqua; }
+    }
+
+    
   }
+
+   /* 640px; */
 
   @media   (max-width: 640px) {
     .about-me, .lorem {
@@ -318,4 +375,31 @@
       font-size: 30px;
       background-color: rgb(198, 198, 193);
     }
+
+
+
+    .wlc {
+      font-family: monospace; /* Web-safe typewriter-like font */
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(30, end),
+        blinking-cursor .5s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blinking-cursor {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    }
+
   }
