@@ -1,0 +1,309 @@
+/* Styling for all pages */
+  
+  .head-radius {
+    height: 100%;
+    background-color: white;
+  }
+  
+  nav li::after {
+    content: "|";
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  .wrapper {
+    /* clear: both; */
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 3px;
+    overflow: scroll;
+    border-style: none;
+    clear: both;
+    background: url("../floor-tile.png") repeat 0 0;
+    padding-bottom: 160px;
+  }
+  
+  .wrapper-two {
+    background-color: white;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .wlc {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 190px;
+    margin-bottom: -1px;
+    border-style: solid;
+  }
+  
+  .wlc:hover {
+    background:#53a7ea;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+  .about {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin: 10px;
+    font-size: 30px;
+  }
+  
+  .about:hover {
+    background-color: rgb(220, 27, 146);
+    color: darkorange;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  h3, .contact, .portfolio {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-top: 150px;
+    margin-left: -450px;
+    font-size: 30px;
+    float: left;
+    color: #4aaaa5;
+  }
+  
+  .portfolio {
+    margin-top: 150px;
+  }
+  
+  nav ul li a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    color: #cccccc;
+  }
+  
+  nav ul li a:hover {
+    background-color: #4aaaa5;
+  }
+  
+  nav ul li {
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+  }
+  
+  nav ul {
+    margin-right: 190px;
+  }
+  
+  .willy {
+    width: 140px;
+    height: 160px;
+    float: left;
+    padding-left: -300px;
+    padding: 20px;
+    margin-top: -2px;
+    margin-left: -10px;
+  }
+  
+  hr {
+    width: 100%;
+  }
+  
+  .about-me, .lorem {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #888383;
+    padding-left: 15px;
+  }
+  
+  .mini-ft {
+    height: 10px;
+    position: relative;
+    width: 100%;
+    background-color: #4aaaa5;
+  }
+  .port-foot, .mini-ft {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -10px;
+  }
+  
+  footer {
+    height: 40px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+  }
+  
+  h6 {
+    margin-top: 10px;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  h6:hover {
+    color: rgb(235, 125, 29);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  
+  /* Portfolio */
+  .image1, .image2, .image3, .image4, .image5 {
+    position: relative;
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+  }
+  
+  .im1, .im2, .im3, .im4, .im5 {
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    background-color: #4aaaa5;
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 20%
+  }
+  
+  .port-wrap-one {
+    height: 100%;
+    overflow: hidden;
+    margin-top: -50px;
+  }
+  
+  .port-wrap-two {
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 130px;
+  }
+  
+  .head-port {
+    height: 100%;
+    margin-bottom: -220px;
+  }
+  
+  
+  /* Contact form */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover { 
+    background-color: rgb(232, 232, 33);
+    color: rgb(230, 155, 17);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 800px;
+    /* To see the limits of the form */
+    padding: 1em;
+    margin-left: -17px;
+    max-width: 100%;
+  }
+  
+  div+div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* To make sure that all label have the same size and are properly align*/
+    display: block;
+    height: 35px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  
+  input, textarea {
+    /* To make sure that all text field have the same font settings
+         By default, textarea are set with a monospace font */
+    font: 1em sans-serif;
+    /* To give the same size to all text field */
+    width: 100%;
+    height: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* To give a little highligh on active elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* To properly align multiline text field with their label */
+    vertical-align: top;
+    /* To give enough room to type some text */
+    height: 5em;
+    /* To allow users to resize any textarea vertically
+         It works only on Chrome, Firefox and Safari */
+    resize: vertical;
+  }
+  
+  #msg {
+    /*  Extra height for message box*/
+    height: 180px;
+  }
+  
+  .button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 0px;
+    /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra magin represent the same space as the space between
+       the labels and their text fields */
+    margin-left: .2em;
+    font-size: .5em;
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 70px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  button:hover {
+    background-color: rgb(232, 232, 33);
+    color: rgb(230, 155, 17);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+
+   /*  Media Queries working from desktop width down to mobile devices*/
+
+   @media (max-width: 980) {
+    background-color: blue;
+   }
+
+   @media (max-width: 768) {
+    background-color: green;
+  }
+
+  @media (max-width: 640) {
+    background-color: red;
+  }
