@@ -296,14 +296,26 @@
 
    /*  Media Queries working from desktop width down to mobile devices*/
 
-   @media (max-width: 980) {
-    background-color: blue;
+   @media  (max-width: 980px) {
+    .about-me, .lorem  {
+      color: rgb(7, 6, 6);
+      font-size: 20px;
+      background-color: rgba(238, 165, 178, 0.954);
+    }
    }
 
-   @media (max-width: 768) {
-    background-color: green;
+   @media   (max-width: 768px) {
+    .about-me, .lorem {
+      color: rgb(218, 99, 218);
+      font-size: 30px;
+      background-color: rgba(208, 226, 173, 0.454);
+    }
   }
 
-  @media (max-width: 640) {
-    background-color: red;
+  @media   (max-width: 640px) {
+    .about-me, .lorem {
+      color: rgb(59, 155, 122);
+      font-size: 30px;
+      background-color: rgb(198, 198, 193);
+    }
   }
