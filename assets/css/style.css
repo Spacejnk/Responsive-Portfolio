@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 /* Styling for all pages */
   
   .head-radius {
@@ -21,7 +25,7 @@
     overflow: scroll;
     border-style: none;
     clear: both;
-    background: url("../floor-tile.png") repeat 0 0;
+    background: url("../../floor-tile.png") repeat 0 0;
     padding-bottom: 160px;
   }
   
