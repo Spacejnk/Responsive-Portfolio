@@ -297,6 +297,9 @@ body{
     transform: scale(1.3);
   }
 
+   /* Per UCLA Bootcamp class assingment, I added the colors on page and text to explain 
+   the transformation between @media queries */
+
 
    /*  Media Queries working from desktop width down to mobile devices*/
 
@@ -304,10 +307,18 @@ body{
 
    @media  (max-width: 980px) {
     .about-me, .lorem  {
-      color: rgb(7, 6, 6);
+      color: rgb(213, 25, 25);
       font-size: 20px;
-      background-color: rgba(238, 165, 178, 0.954);
+      background-color: rgba(221, 184, 191, 0.954);
     }
+    .about {
+      color: rgb(242, 60, 236);
+    }
+
+    nav ul li a{
+      color: deeppink;
+    }
+
     .wlc {
       font-family: monospace; /* Web-safe typewriter-like font */
       overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -342,6 +353,15 @@ body{
       color: rgb(218, 99, 218);
       font-size: 30px;
       background-color: rgba(208, 226, 173, 0.454);
+    }
+
+    .about {
+      color: rgb(60, 255, 242);
+    }
+
+
+    nav ul li a{
+      color: rgb(20, 255, 94);
     }
 
     .wlc {
@@ -380,7 +400,13 @@ body{
       background-color: rgb(198, 198, 193);
     }
 
+    .about {
+      color: rgb(252, 168, 64);
+    }
 
+    nav ul li a{
+      color: rgb(255, 228, 20);
+    }
 
     .wlc {
       font-family: monospace; /* Web-safe typewriter-like font */
